@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "HackWhichCity",
+  "version": "1.0",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://devfolio.co/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://devfolio.co/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
