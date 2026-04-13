@@ -12,5 +12,18 @@
   ],
   "background": {
     "service_worker": "background.js"
+  }, 
+  "icons": {
+  "16": "icons/16x16.png",
+  "32": "icons/32x32.png",
+  "48": "icons/48x48.png",
+  "128": "icons/128x128.png"
+}, 
+  "action": {
+  "default_icon": {
+    "16": "icons/16x16.png",
+    "32": "icons/32x32.png"
   }
+}, 
+"description": "Instantly see the city for any hackathon on Devfolio — just hover over a listing to reveal its location."
 }
