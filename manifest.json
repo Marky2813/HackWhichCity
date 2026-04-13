@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "HackWhichCity",
   "version": "1.0",
-  "permissions": ["scripting"],
+  "permissions": ["scripting", "offscreen"],
   "host_permissions": ["https://devfolio.co/*"],
   "content_scripts": [
     {
